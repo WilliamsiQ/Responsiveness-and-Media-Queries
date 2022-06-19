@@ -1,0 +1,83 @@
+body {
+    background-image: url('bg-intro-desktop.png');
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    Font-size: 16px;
+    background-color: hsl(0, 100%, 74%);
+}
+@media only screen and (max-width: 375px) {
+    /* For mobile phones: */
+    [body] {
+        background-image: url('bg-intro-mobile.png');
+    }
+    [class*="flex-container"] {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  }
+
+.flex-container {
+    display: flex;
+    position: fixed;
+    height: 100vh;
+    top: 15%;
+    left: 15%;
+    margin-top: 100px;
+    margin-left: -100px;
+    justify-items: center;
+      
+}
+input {
+    border-radius: 10px;
+    width: 75%;
+    border-color: azure;
+    font-weight: 600;
+    color: black;
+
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px;
+}  
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 50px;
+    
+}
+h1,p, form {
+    text-align: center;
+}
+form {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    
+}
+
+.text {
+    color: aliceblue;
+}
+.blue {
+    background-color: hsl(248, 32%, 49%);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#subo {
+    background-color: hsl(154, 59%, 51%);
+    color: aliceblue;
+
+}
+p {
+    font-weight: 400;
+}
+
+h1 {
+    font-weight:700;
+    margin-bottom: 50px;
+}
+span {
+    color: hsl(0, 100%, 74%) 
+
+}
